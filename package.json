@@ -13,7 +13,7 @@
     "mesh"
   ],
   "license": "CC-BY-4.0",
-  "main": "mirror.json",
+  "main": "index.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jp-mirror/jp-data-mesh-csv.git"
