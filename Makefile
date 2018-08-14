@@ -2,7 +2,7 @@
 
 ENDPOINT=http://www.stat.go.jp/data/mesh/csv
 
-FILES=$(shell grep -v "^#" files.txt)
+FILES=$(shell node -pe 'require(".").files.join(" ")')
 
 all: $(FILES)
 

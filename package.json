@@ -6,24 +6,20 @@
   "bugs": {
     "url": "https://github.com/jp-mirror/jp-data-mesh-csv/issues"
   },
-  "devDependencies": {
-    "mocha": "^5.2.0"
-  },
   "homepage": "https://github.com/jp-mirror/jp-data-mesh-csv#readme",
   "keywords": [
     "JIS-X-0402",
     "grid",
     "mesh"
   ],
-  "license": "MIT",
-  "main": "./js/jp-data-mesh-csv.js",
+  "license": "CC-BY-4.0",
+  "main": "mirror.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jp-mirror/jp-data-mesh-csv.git"
   },
   "scripts": {
     "fixpack": "fixpack",
-    "test": "./node_modules/.bin/mocha js/test/"
-  },
-  "typings": "./js/jp-data-mesh-csv.d.ts"
+    "make": "make"
+  }
 }
