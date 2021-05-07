@@ -1,11 +1,18 @@
 {
   "name": "jp-data-mesh-csv",
   "description": "Mirror from http://www.stat.go.jp/data/mesh/m_itiran.html",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "@kawanet",
   "bugs": {
     "url": "https://github.com/jp-mirror/jp-data-mesh-csv/issues"
   },
+  "files": [
+    "mirror/*.csv",
+    "*.js",
+    "*.json",
+    "README.md",
+    "types.d.ts"
+  ],
   "homepage": "https://github.com/jp-mirror/jp-data-mesh-csv#readme",
   "keywords": [
     "JIS-X-0402",
@@ -13,14 +20,15 @@
     "mesh"
   ],
   "license": "CC-BY-4.0",
-  "main": "index.json",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jp-mirror/jp-data-mesh-csv.git"
   },
   "scripts": {
     "fixpack": "fixpack",
-    "make": "make"
+    "make": "make",
+    "prepack": "make"
   },
   "types": "types.d.ts"
 }
