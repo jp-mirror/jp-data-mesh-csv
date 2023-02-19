@@ -1,8 +1,6 @@
 {
   "files": [
-    "mirror/01-1.csv",
-    "mirror/01-2.csv",
-    "mirror/01-3.csv",
+    "mirror/01.csv",
     "mirror/02.csv",
     "mirror/03.csv",
     "mirror/04.csv",
